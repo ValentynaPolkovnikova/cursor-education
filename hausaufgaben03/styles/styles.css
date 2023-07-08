@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 10px 100px;
+    background-color: #aaa4a4;
+  }
+  
+  .group {
+    margin-bottom: 100px;
+    background-color: #aaa4a4;
+  }
+  
+  .banner_1 {
+    width: 1263px;
+    height: 90px;
+    margin-bottom: 40px;
+    padding: 5px 120px;
+    background-color: #0c3159;
+  }
+  
+  .banner_1_text {
+    display: inline-block;
+    align-content: left;
+    width: 700px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.54;
+    background-color: #0c3159;
+  }
+  
+  .banner_1_link {
+    display: inline-block;
+    vertical-align: 50%;
+    padding: 8px 10px;
+    width: 110px;
+    color: #4ad295;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: underline;
+   }
+  
+  .banner_1_btn {
+    display: inline-block;
+    vertical-align: 50%;
+    width: 140px;
+    margin-left: 5px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #4ad295;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.2;
+   }
+  
+  .banner_2 {
+    width: 1263px;
+    height: 70px;
+    padding: 5px 200px;
+    background-color: #2b2627;
+    box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.1),
+      0px 12px 24px -6px rgba(96, 96, 96, 0.15);
+  }
+  
+  .banner_2_icon1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .banner_2_text {
+    display: inline-block;
+    margin: 0 14px 0 4px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+  .banner_2_link {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .banner_2_icon2 {
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    background-color: #2b2627;
+    cursor: pointer;
+  }
+  
+  .banner_3 {
+    /* position: relative; */
+    width: 700px;
+    height: 110px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.1),
+      0px 12px 24px -6px rgba(96, 96, 96, 0.15);
+  }
+  
+  .banner_3_icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: 70%;
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: rgba(234, 76, 137, 0.1);
+  }
+  
+  .banner_3_logo {
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .banner_3_text {
+    display: inline-block;
+    width: 347px;
+    color: #0d0c22;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 1.43;
+  }
+  
+  .banner_3_link {
+    color: #ea4c89;
+  }
+  
+  .banner_3_btn-decline {
+    display: inline-block;
+    vertical-align: 50%;
+    margin: 0 6px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: #0d0c22;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.67;
+    background-color: #f5f0f1;
+  }
+  
+  .banner_3_btn-allow {
+    display: inline-block;
+    vertical-align: 50%;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.67;
+    background-color: #ea4c89;
+  }
+  
+  .banner_4 {
+    width: 700px;
+    height: 110px;
+    padding: 5px 16px;
+    border-radius: 10px;
+    background-color: #26262b;
+    box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.1),
+      0px 12px 24px -6px rgba(96, 96, 96, 0.15);
+  }
+  
+  .banner_4_text {
+    display: inline-block;
+    width: 469px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    line-height: 1.67;
+  }
+  
+  .banner_4_link {
+    color: #e6842e;
+  }
+  
+  .banner_4_btn {
+    display: inline-block;
+    vertical-align: 50%;
+    margin-left: 6px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: #26262b;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    line-height: 1.67;
+    background-color: #fff;
+  }
+  
+  .banner_5 {
+    display: inline-block;
+    width: 360px;
+    height: 300px;
+    margin-right: 40px;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgba(28, 37, 64, 0.95);
+    box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.1),
+      0px 12px 24px -6px rgba(96, 96, 96, 0.15);
+  }
+  .banner_5_title {
+    color: #fff;
+}
+  .banner_5_text {
+    margin: 8px 0 8px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.42;
+  }
+  
+  .banner_5_link {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .banner_5_link-manage {
+    margin-right: 64px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  .banner_5_link-accept {
+    padding: 8px 10px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3;
+    border-radius: 6px;
+    background-color: #09b3af;
+    box-shadow: 1px 2px 2px -3px rgba(34, 38, 50, 0.3);
+  }
+  
+  .banner_6 {
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.1),
+      0px 12px 24px -6px rgba(96, 96, 96, 0.15);
+  }
+  
+  .banner_6_text {
+    margin: 10px 0 16px;
+    color: #687f8c;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.43;
+  }
+  
+  .banner_6_link-manage {
+    margin-right: 5px;
+    padding: 8px 28px;
+    border-radius: 6px;
+    color: #687f8c;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    background: #eaf0f4;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+  }
+  
+  .banner_6_link-accept {
+    padding: 8px 48px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    background: #40c1a7;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+  }
+  
+  .banner_7 {
+    display: inline-block;
+    width: 320px;
+    margin-right: 40px;
+    padding: 32px;
+    border-radius: 20px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(186, 226, 255, 0.15) 23.96%,
+        rgba(229, 217, 255, 0.15) 71.88%,
+        rgba(255, 255, 255, 0.15) 100%
+      ),
+      #fff;
+    box-shadow: 0px 8px 32px 0px rgba(10, 3, 89, 0.1);
+  }
+  
+  .banner_7_title {
+    color: #15295a;
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.71;
+    text-align: center;
+  }
+  
+  .banner_7_text {
+    margin-bottom: 32px;
+    color: #15295a;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .banner_7_btn {
+    margin: 0 27%;
+    padding: 10px 32px;
+    border-radius: 43px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    background-color: #4a7eff;
+  }
+  
+  .banner_8 {
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 8px 32px 0px rgba(10, 3, 89, 0.1);
+  }
+  
+  .banner_8_text {
+    margin-bottom: 12px;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+  }
+  
+  .banner_8_link-policy {
+    color: #66f;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  .banner_8_link-accept {
+    margin-left: 139px;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: #66f;
+  }
