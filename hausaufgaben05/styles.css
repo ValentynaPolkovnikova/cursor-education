@@ -1,0 +1,115 @@
+body {
+    background-color: #353232;
+    margin: 0;
+    padding: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    width: 1000px;
+    height: 100%;
+    margin: 1 auto;
+    padding: 50px;
+    color: #ffffff;
+    background-color: #363535;
+  }
+  
+  .blok {
+    background-color: #353232;
+    margin-bottom: 100px;
+  }
+  
+  .sorting__name::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #ffffff;
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .table_1 {
+    width: 100%;
+    border: 3px solid #5a5858;
+    border-spacing: 1px;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  
+  .table_1 th,
+  .table_1 td {
+    border-bottom: 2px solid #646464;
+    padding: 10px;
+    width: 40%;
+  }
+
+    .table_1 tr:last-child > td {
+    border-bottom: none;
+  }
+
+  .table_2 {
+    width: 100%;
+    border: 3px solid #5a5858;
+    border-spacing: 1px;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  
+  .table_2 th,
+  .table_2 td {
+    border-bottom: 2px solid #646464;
+    padding: 10px;
+    width: 40%;
+  }
+
+  .checkbox {
+    margin-right: 15px;
+    border-color: #646464;
+  }
+  
+  .table_2 tr:last-child > td {
+    border-bottom: none;
+  }
+  
+  .table_3 {
+    width: 100%;
+    border: 3px solid #5a5858;
+    border-spacing: 1px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .table_3 th,
+  .table_3 td {
+    border-bottom: 2px solid #646464;
+    padding: 10px;
+    width: 55%;
+  }
+
+  .table_3 tr:last-child > td {
+    border-bottom: none;
+  }
+
+  .search {
+    background-image: url(./image/icon-magnifier.png);
+    background-size: 10%;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+    padding: 6px;
+    margin-left: 2px;
+  }
+  
+  .search[placeholder] {
+    color: #ffffff;
+    background-color: #575454;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+  }
+
+ 
